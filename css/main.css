@@ -1,0 +1,321 @@
+html, body {
+	font-family:Lato, Helvetica, Verdana, sans-serif;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+#intro {
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	background:url(../images/hero.jpg) no-repeat 50% 50%;
+	display: table;
+	position: relative;
+	z-index: 0;
+	top: 0px;
+	background-size: cover;
+	background-attachment: fixed;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#logo-header {
+
+	float: left;
+	transform: scale(0.55,0.55);
+}
+
+.navi a {
+	float: right;
+	margin-top: 34px;
+	margin-right: 34px;
+	padding-left: 34px;
+	display:flex;
+	font-weight: 400;
+	font-size: 21px;
+	color: rgba(255,255,255,1);
+	text-decoration: none;
+}
+
+
+
+.title-text h1{
+	text-align: center;
+	font-size: 55px;
+	font-weight: 300;
+	color: white;
+	margin-bottom: 21px;
+	text-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+	clear: both;
+	margin-top: 233px
+}
+
+.about-cont {
+	width: 100%;
+	min-height: 50%;
+	height:auto;
+	background:url(../images/dog.png) no-repeat 120% ;
+	background-attachment: fixed;
+	margin: 0px;
+	clear: both;
+	flex-wrap: wrap;
+}
+
+.about h1 {
+	margin:0;
+	text-align: center;
+	font-weight: 400;
+	font-size: 34px;
+	padding-top: 55px;
+	padding-bottom: 10px;
+	margin-bottom: 55px; 
+	color: #3F3540;
+	text-shadow: 0px 0px 15px rgba(0,0,0,0.3);
+}
+
+.about p{
+	width: 80%;
+	margin:auto;
+	font-size: 20px;
+	text-align: left;
+}
+
+
+.container{
+	width: 100%;
+	min-height: 75%;
+	height:auto;
+	margin: 0px;
+	background-color: #E8EDF4;
+	clear: both;
+	flex-wrap: wrap;
+	z-index: 1;
+}
+
+.cont-offer {
+	background-image: url(../images/cat.png);
+	background-repeat: no-repeat;
+	background-position: -20%;
+	background-attachment: fixed;
+}
+	
+	
+
+
+
+
+#offer-content{
+	width: 80%;
+	margin:auto;
+	clear: both;
+}
+
+
+#offer {
+	text-align: center;
+	font-weight: 400;
+	font-size: 34px;
+	margin-top: 55px;
+	padding-bottom: 10px;
+	margin-bottom: 55px; 
+	color: #3F3540;
+	text-shadow: 0px 0px 15px rgba(0,0,0,0.3);
+c}
+
+
+
+
+.offer-text{
+	text-align: center;
+	padding-bottom: 55px;
+}
+
+#map {
+ min-height: 300px;
+ height: 55%;
+ width: 100%;
+ margin-bottom: 0px;
+}
+
+
+.gallery {
+	background-color: #9fa59f;
+	padding-bottom: 3em;
+}
+.gallery-img{
+	margin: 0;
+	padding: 5px;
+	background-color: transparent;
+}
+
+
+#gallery-thumbnails {
+	width: 80.8%;
+	margin:auto;
+	margin-bottom: 3em;
+}
+
+#gallery-title {
+	text-align: center;
+	font-weight: 400;
+	font-size: 34px;
+	margin-top: 2em;
+	margin-bottom: 2em; 
+	color: #fff;
+}
+
+
+
+.gallery-img:hover {
+ z-index: 1;
+  transform: scale(1.618,1.618);
+  transition: .3s transform;
+}
+
+.contact {
+	z-index: 1;
+	position: relative;
+	min-height: 90px;
+	width: auto;
+	background-color: #3F3540;
+}
+
+#contact_title {
+	text-align: center;
+	font-weight: 400;
+	font-size: 34px;
+	margin-top: 2em;
+	margin-bottom: 2em; 
+	color: #e0e0e0;
+}
+
+#contact-content{
+	width: 80.8%;
+	margin:auto;
+	margin-bottom: 3em;
+	clear: both;
+}
+.contact-text{
+	text-align: center;
+	padding-bottom: 3em;
+	color: #e0e0e0;
+}
+
+footer {
+	padding: 0;
+	margin: 0;
+}
+
+.footer-cl {
+	clear: both;
+	min-height: 70px;
+	width: 100%;
+	height: 90px;
+	background-color: #3F3540;
+}
+
+#logo-footer{
+	transform: scale(0.6,0.6);
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+
+.hamburger {
+	display: none;
+}
+
+
+@media screen and (max-width: 768px) {
+	
+	.hamburger {
+    padding: 15px;
+    display: block;
+    float: right;
+    padding-right: 21px;
+	padding-top: 24px;
+	color: #fff;
+    }
+
+    .line {
+    border-bottom: 4px solid #fff;
+    width: 35px;
+    margin-bottom: 6px;
+  	}
+
+
+     .navi {
+    background-color: rgba(63,53,64,0.8);
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s linear;
+   }
+
+
+	.navi a {
+	float: right;
+	width: 100%;
+	margin-top: 20px;
+	padding-left: 50%;
+	text-align: center;
+	font-weight: 21px;
+	color: rgba(255,255,255,1);
+	text-decoration: none;
+}
+
+  
+  .slide-down {
+    height: 225px;
+   }
+
+   .about-cont {
+   	background-image: none;
+   }
+
+   .cont-offer {
+   	background-image: none;
+   }
+
+	#map {
+		display: none;
+	}
+
+	.intro {
+		height: 70%;
+	}
+
+	.title-text h1{
+	text-align: center;
+	font-size: 30px;
+	font-weight: 300;
+	color: white;
+	margin-bottom: 20px;
+	text-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+	clear: both;
+	margin-top: 100px
+}
+
+	.logo {
+  position: absolute;
+  margin-left: -30px;
+  margin-top: -15px;
+}
+	
+	nav {
+		width: 100%;
+	}
+
+
+
+
+}
+
+
